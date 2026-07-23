@@ -1,6 +1,6 @@
 /**
  * AIESEC in Sri Lanka - NPM 26.27 Sem 1 Recruitment Portal
- * Structured data for all 11 teams and their roles.
+ * Structured data for all 12 teams and their roles.
  * Source: https://docs.google.com/spreadsheets/d/1i2-cRPcfAwJqI74StxPaswj4ULuLV-95xuv7fFA9Xuw
  */
 
@@ -683,7 +683,7 @@ const FUNCTIONS = [
     name: "ER",
     fullName: "External Relations",
     color: "#E67E22",
-    description: "External partnerships, government affairs, B2B operations, and international expansion.",
+    description: "External partnerships, B2B operations, and external entity relations.",
     roles: [
       {
         id: "er-ogx-b2b",
@@ -714,90 +714,47 @@ const FUNCTIONS = [
           "What factors would you consider when selecting a Visa partner for our exchange participants?",
           "How would you ensure the raised partner's services are effectively promoted to AIESEC's exchange customers?"
         ]
-      },
+      }
+    ]
+  },
+
+  // ─── TM ───
+  {
+    id: "tm",
+    name: "TM",
+    fullName: "Talent Management",
+    color: "#8E44AD",
+    description: "Internal communications, membership experience, recognition initiatives, and national team engagement.",
+    roles: [
       {
-        id: "er-icx-b2b",
-        title: "iCX B2B Manager",
+        id: "tm-icomm-mxp",
+        title: "iComm & MXP Manager",
         positions: 1,
-        description: "Raise National iCX B2B Partners. Conduct company meetings. Create, customize & update National B2B Proposals. Perform market research & analysis. Handle account management & network utilization. CRM handling.",
+        description: "Responsible for enhancing the communication, engagement, and overall membership experience of Executive Boards (EBs) and Extended Support Team (EST) members throughout the term. Focuses on designing and executing impactful internal communication strategies, recognition initiatives, and engagement campaigns. Working closely with the MCVP Talent Management and the Member Committee to ensure value and participation.",
         skills: [
-          "Negotiation skills",
-          "Market research and analysis",
-          "Relationship management",
-          "Knowledge of iCX product framework (GV, GT, etc.)",
-          "Understanding of corporate CSR, HR, and internship markets in Sri Lanka"
+          "Graphic design & presentation design (Canva preferred)",
+          "Copywriting & storytelling",
+          "Internal communication & content planning",
+          "Event facilitation & project management",
+          "Understanding of AIESEC Membership Experience & TM strategies"
         ],
         kpis: [
-          "Number of national iCX partnerships raised",
-          "Number of iCX opportunities created through partners",
-          "Partner satisfaction and engagement rate",
-          "Number of EPs placed via national partners"
+          "Deliver 100% of weekly iComm spaces on schedule",
+          "Maintain 95%+ communication accuracy with timely dissemination",
+          "Execute at least 2 national recognition initiatives every month",
+          "Conduct monthly engagement activities for EBs and EST members",
+          "Achieve an average 80% attendance in weekly iComm spaces"
         ],
         learningOutcomes: [
-          "Insight into Sri Lanka's corporate ecosystem for internships and CSR projects",
-          "Stronger B2B pitching and negotiation abilities",
-          "Professional stakeholder relationship development skills",
-          "Better understanding of iCX operational needs and corporate expectations"
+          "Leading national-level engagement initiatives",
+          "Stakeholder management across multiple entities",
+          "Strategic internal communication & storytelling",
+          "Planning and executing engagement campaigns & member experience"
         ],
         questions: [
-          "How would you approach a tech company to offer internship opportunities to incoming exchange participants?",
-          "What's the biggest challenge when selling AIESEC's iCX value proposition to corporates in Sri Lanka?",
-          "How would you measure the success of an iCX partnership?"
-        ]
-      },
-      {
-        id: "er-gov-affairs",
-        title: "Government Affairs Manager",
-        positions: 1,
-        description: "Research and identify relevant ministries and governmental organizations supporting youth development, education, tourism, and international collaboration. Initiate and maintain formal relationships with key governmental stakeholders. Draft and maintain legal and procedural documentation (MoUs, approvals, etc.). Support the National President and MC in government-related correspondence and networking.",
-        skills: [
-          "Basic legal awareness",
-          "Formal communication standards",
-          "Importance of documentation",
-          "AIESEC's national and global purpose",
-          "Basic understanding of Government Ministries"
-        ],
-        kpis: [
-          "Number of government bodies engaged",
-          "Number of MoUs signed or renewed",
-          "Number of government approvals/documentations completed",
-          "Number of government events participated"
-        ],
-        learningOutcomes: [
-          "Professional government communication skills",
-          "Understanding of national youth, labor, and education policy",
-          "Practical legal and procedural knowledge for NGO operations",
-          "Experience in formal networking and diplomacy"
-        ],
-        questions: [
-          "What ministries are most relevant to AIESEC's operations and why?",
-          "How would you handle a delay in government approval for a key AIESEC event?",
-          "Describe how you'd ensure AIESEC complies with new youth development policies introduced by the government."
-        ]
-      },
-      {
-        id: "er-maldives",
-        title: "Maldives AIESEC Manager",
-        positions: 1,
-        description: "Lead the documentation process for the official registration of AIESEC Maldives. Lead the Maldives project management team. Align Maldives operations with the national and global AIESEC strategy. Prepare reports and updates regarding progress and challenges. Build connections with Maldivian universities and potential partners to support local operations.",
-        skills: [
-          "Team management & leadership",
-          "Cross-cultural communication",
-          "Problem-solving and critical thinking"
-        ],
-        kpis: [
-          "Progress in the official registration process (milestone-based)",
-          "Number of documented procedural completions (permits, approvals)",
-          "Number of institutional and partnership leads identified in the Maldives"
-        ],
-        learningOutcomes: [
-          "Hands-on knowledge of international NGO registration processes",
-          "Insight into international market expansion strategies",
-          "Enhanced problem-solving skills in legal and procedural contexts"
-        ],
-        questions: [
-          "What challenges do you foresee in registering AIESEC as an official entity in the Maldives?",
-          "How can we use Maldives to enhance our exchanges?"
+          "How would you design a national internal communication (iComm) strategy to keep Executive Boards (EBs) and EST members engaged and informed?",
+          "What innovative recognition initiatives or gamification strategies would you introduce to boost motivation across AIESEC in Sri Lanka?",
+          "How would you handle low attendance or low engagement in weekly national iComm spaces?"
         ]
       }
     ]
