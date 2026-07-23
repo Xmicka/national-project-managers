@@ -98,8 +98,8 @@
   function updateFunctionBanner(fnId) {
     const banner = document.getElementById('functionBanner');
     if (fnId === 'all') {
-      functionBannerName.textContent = 'All Functions';
-      functionBannerDesc.textContent = `Explore all ${getTotalRoles()} NPM roles across ${FUNCTIONS.length} functions.`;
+      functionBannerName.textContent = 'All Teams';
+      functionBannerDesc.textContent = `Explore all ${getTotalRoles()} NPM roles across ${FUNCTIONS.length} teams.`;
     } else {
       const fn = FUNCTIONS.find(f => f.id === fnId);
       functionBannerName.textContent = `${fn.fullName} (${fn.name})`;
