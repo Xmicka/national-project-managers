@@ -502,7 +502,7 @@ img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center 52%;
+  object-position: center 45%;
   filter: brightness(0.6) saturate(0.95);
 }
 
@@ -570,6 +570,10 @@ img {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.hero-title-line {
+  white-space: nowrap;
 }
 
 .hero-headline {
